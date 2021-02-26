@@ -1,0 +1,142 @@
+#background{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    background-image: url(p.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+
+.header{
+    color: rgb(18, 231, 71);
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+
+nav{
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 20px; 
+    margin: 10px;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    color: blue;
+}
+@media screen and (max-width: 682px) and (min-width: 562px) {
+    nav a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 561px) and (min-width: 441px) {
+    nav a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}  
+@media screen and (max-width: 441px) {
+    nav a{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+a:hover{
+    color: red;
+}
+
+
+.box{
+    border: 3px solid rgb(211, 5, 238);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(226, 43, 134);
+    font-size: 20px;
+}
+
+
+#about img{
+    width: 160px;
+    float: left;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+@media screen and (max-width: 1034px) {
+    #about img{
+        float: none;
+    }
+}
+#about, #education, #projects{
+    display: block;
+    width: 50%;
+}
+@media screen and (max-width: 483px) {
+    #about, #education, #projects{
+        width: 70%;
+    }
+} 
+
+
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.pro1{
+    border: salmon solid 2px;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px auto; 
+}
+.pro2{
+    border: salmon solid 2px;
+    border-radius: 5px;
+    width: fit-content;    
+    padding: 10px;
+    margin: 5px auto; 
+}
+
+
+#gallery img{
+    width: 30%;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+@media (orientation: portrait){
+    #gallery img{
+        width: 80%;
+    }
+}
+
+
+footer{
+    border: 3px solid rgb(211, 5, 238);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(241, 113, 9);
+    font-size: 20px;
+    display: block;
+    width: 40%;
+}
